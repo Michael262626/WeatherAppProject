@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("asset/1.png");
+    background-size: cover;
+}
+.title{
+    justify-content: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+#input-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.city-name{
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: #dce5db;
+}
+.submit{
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.container {
+    margin: 50px auto;
+    max-width: 300px;
+    padding-bottom: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0 0 50px rgba(236, 229, 229, 0.33);
+}
+#result{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
